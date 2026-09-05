@@ -46,7 +46,7 @@
 
                 default_layer {
                         bindings = <
-   &kp GRAVE &kp Q        &kp W       &kp F       &kp P        &kp B          &kp Y   &kp L        &kp U       &kp Y       &kp SEMI     &kp BSLH
+   &kp GRAVE &kp Q        &kp W       &kp F       &kp P        &kp B          &kp J   &kp L        &kp U       &kp Y       &kp SEMI     &kp BSLH
    &kp ESC   &hml LCTRL A &hml LALT R &hml LGUI S &hml LSHFT T &kp G          &kp M   &hmr RSHFT N &hmr RGUI E &hmr RALT I &hmr RCTRL O &kp SQT
    &kp HOME  &kp Z        &kp X       &kp C       &kp D        &kp V          &kp K   &kp H        &kp COMMA   &kp DOT     &kp FSLH     &kp END
                                       &kp DEL     &lt 1 BSPC   &kp TAB        &kp RET &lt 2 SPACE  &kp UNDER
