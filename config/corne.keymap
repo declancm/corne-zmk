@@ -49,7 +49,6 @@
                         bindings = <&caps_word>;
                 };
         };
-};
 
         keymap {
                 compatible = "zmk,keymap";
