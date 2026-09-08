@@ -13,7 +13,7 @@
 #define THUMBS 36 37 38 39 40 41
 
 &lt {
-        tapping-term-ms = <140>;
+        tapping-term-ms = <150>;
 };
 
 &sk {
@@ -66,7 +66,7 @@
    &kp GRAVE &kp Q        &kp W       &kp F       &kp P        &kp B          &kp J   &kp L        &kp U       &kp Y       &kp SEMI     &kp BSLH
    &kp ESC   &hml LCTRL A &hml LALT R &hml LGUI S &hml LSHFT T &kp G          &kp M   &hmr RSHFT N &hmr RGUI E &hmr RALT I &hmr RCTRL O &kp SQT
    &kp HOME  &kp Z        &kp X       &kp C       &kp D        &kp V          &kp K   &kp H        &kp COMMA   &kp DOT     &kp FSLH     &kp END
-                                      &sk LSHFT   &lt 1 BSPC   &kp TAB        &kp RET &lt 2 SPACE  &kp UNDER
+                                      &kp DEL     &lt 1 BSPC   &kp TAB        &kp RET &lt 2 SPACE  &kp UNDER
                         >;
                 };
 
@@ -84,7 +84,7 @@
    &kp C_VOL_UP &kp F12        &kp F7       &kp F8       &kp F9        &trans        &trans     &kp PG_DN    &kp UP       &kp PG_UP    &trans         &kp C_BRI_UP
    &kp C_VOL_DN &hml LCTRL F11 &hml LALT F4 &hml LGUI F5 &hml LSHFT F6 &trans        &kp HOME   &kp LEFT     &kp DOWN     &kp RIGHT    &hmr RCTRL END &kp C_BRI_DN
    &kp C_MUTE   &kp F10        &kp F1       &kp F2       &kp F3        &trans        &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3   &bt BT_SEL 4
-                                            &trans       &kp DEL       &trans        &trans     &trans       &trans
+                                            &trans       &trans        &trans        &trans     &trans       &trans
                         >;
                 };
         };
