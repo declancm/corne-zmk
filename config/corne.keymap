@@ -53,7 +53,7 @@
                 compatible = "zmk,combos";
 
                 combo_caps_word {
-                        key-positions = <16 19>;
+                        key-positions = <37 40>;
                         bindings = <&caps_word>;
                 };
         };
