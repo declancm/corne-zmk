@@ -54,19 +54,19 @@
 
                 default_layer {
                         bindings = <
-   &kp GRAVE &kp Q        &kp W       &kp F       &kp P        &kp B          &kp J   &kp L        &kp U       &kp Y       &kp SEMI     &kp BSLH
-   &kp ESC   &hml LCTRL A &hml LALT R &hml LGUI S &hml LSHFT T &kp G          &kp M   &hmr RSHFT N &hmr RGUI E &hmr RALT I &hmr RCTRL O &kp SQT
-   &kp HOME  &kp Z        &kp X       &kp C       &kp D        &kp V          &kp K   &kp H        &kp COMMA   &kp DOT     &kp FSLH     &kp END
-                                      &kp DEL     &lt 1 BSPC   &kp TAB        &kp RET &lt 2 SPACE  &kp UNDER
+   &kp GRAVE  &kp Q        &kp W       &kp F       &kp P        &kp B          &kp J   &kp L        &kp U       &kp Y       &kp SEMI     &kp BSLH
+   &caps_word &hml LCTRL A &hml LALT R &hml LGUI S &hml LSHFT T &kp G          &kp M   &hmr RSHFT N &hmr RGUI E &hmr RALT I &hmr RCTRL O &kp SQT
+   &kp HOME   &kp Z        &kp X       &kp C       &kp D        &kp V          &kp K   &kp H        &kp COMMA   &kp DOT     &kp FSLH     &kp END
+                                       &kp ESC     &lt 1 BSPC   &kp TAB        &kp RET &lt 2 SPACE  &kp UNDER
                         >;
                 };
-
+ 
                 lower_layer {
                         bindings = <
-   &kp TILDE  &kp EXCL      &kp PLUS        &kp LBRC     &kp RBRC         &kp CARET        &kp AMPS &kp N7        &kp N8       &kp N9       &kp COLON       &kp PIPE
-   &caps_word &hml LCTRL LT &hml LALT MINUS &hml LGUI GT &hml LSHFT EQUAL &kp PRCNT        &kp HASH &hmr RSHFT N4 &hmr RGUI N5 &hmr RALT N6 &hmr RCTRL STAR &kp DQT
-   &trans     &kp LBKT      &kp RBKT        &kp LPAR     &kp RPAR         &kp DLLR         &kp AT   &kp N1        &kp N2       &kp N3       &kp QMARK       &trans
-                                            &trans       &trans           &trans           &trans   &trans        &kp N0
+   &kp TILDE &kp EXCL      &kp PLUS        &kp LBRC     &kp RBRC         &kp CARET        &kp AMPS &kp N7        &kp N8       &kp N9       &kp COLON       &kp PIPE
+   &trans    &hml LCTRL LT &hml LALT MINUS &hml LGUI GT &hml LSHFT EQUAL &kp PRCNT        &kp HASH &hmr RSHFT N4 &hmr RGUI N5 &hmr RALT N6 &hmr RCTRL STAR &kp DQT
+   &trans    &kp LBKT      &kp RBKT        &kp LPAR     &kp RPAR         &kp DLLR         &kp AT   &kp N1        &kp N2       &kp N3       &kp QMARK       &trans
+                                           &trans       &trans           &trans           &trans   &trans        &kp N0
                         >;
                 };
 
@@ -75,7 +75,7 @@
    &kp C_VOL_UP &kp F12        &kp F7       &kp F8       &kp F9        &trans        &trans     &kp PG_DN    &kp UP       &kp PG_UP    &trans         &kp C_BRI_UP
    &kp C_VOL_DN &hml LCTRL F11 &hml LALT F4 &hml LGUI F5 &hml LSHFT F6 &trans        &kp HOME   &kp LEFT     &kp DOWN     &kp RIGHT    &hmr RCTRL END &kp C_BRI_DN
    &kp C_MUTE   &kp F10        &kp F1       &kp F2       &kp F3        &trans        &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3   &bt BT_SEL 4
-                                            &trans       &trans        &trans        &trans     &trans       &trans
+                                            &trans       &kp DEL       &trans        &trans     &trans       &trans
                         >;
                 };
         };
